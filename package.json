@@ -1,0 +1,41 @@
+{
+  "name": "hubot-rpg",
+  "description": "A passive rpg for your chat",
+  "version": "0.0.0",
+  "author": "Adam Hitchcock <adam@northisup.com>",
+  "license": "MIT",
+  "keywords": "hubot, hubot-scripts",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/NorthIsUp/hubot-rpg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NorthIsUp/hubot-rpg/issues"
+  },
+  "dependencies": {
+    "adjective-animal": "^1.1.3",
+    "emoji-named-characters": "^1.0.2",
+    "underscore": "^1.8.3"
+  },
+  "peerDependencies": {
+    "hubot": "2.x"
+  },
+  "devDependencies": {
+    "chai": "^2.1.1",
+    "coffee-script": "1.6.3",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-mocha-test": "~0.12.7",
+    "grunt-release": "~0.11.0",
+    "hubot": "2.x",
+    "matchdep": "~0.3.0",
+    "mocha": "^2.1.0",
+    "sinon": "^1.13.0",
+    "sinon-chai": "^2.7.0"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "grunt test"
+  }
+}
